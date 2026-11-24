@@ -100,7 +100,7 @@ A prototipagem no Figma foi utilizada para estruturar as interfaces, organizar o
 <!-- [![Conheça o protótipo no Figma](docs/images/figma.png)](URL_DO_PROTOTIPO_FIGMA) -->
 
 **Protótipo interativo:** 
-[![Conheça o protótipo no Figma](docs/images/figma.png)]([URL_DO_PROTOTIPO_FIGMA](https://www.figma.com/proto/OlghV392KigSSswil4jZFO/panna_assets?node-id=1-835&p=f&viewport=414%2C94%2C0.05&t=nD768CbHFwYtczy8-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A835&show-proto-sidebar=1&page-id=0%3A1))
+[![Conheça o protótipo no Figma](asstes/images/figma.png)]([URL_DO_PROTOTIPO_FIGMA](https://www.figma.com/proto/OlghV392KigSSswil4jZFO/panna_assets?node-id=1-835&p=f&viewport=414%2C94%2C0.05&t=nD768CbHFwYtczy8-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A835&show-proto-sidebar=1&page-id=0%3A1))
 
 ## Demonstração do sistema
 
