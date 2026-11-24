@@ -96,11 +96,10 @@ O vídeo pitch apresenta o contexto do projeto, os desafios identificados, a sol
 
 A prototipagem no Figma foi utilizada para estruturar as interfaces, organizar os fluxos de navegação e orientar o desenvolvimento do front-end. O design considera as necessidades dos dois perfis de acesso e a utilização em diferentes tamanhos de tela.
 
-<!-- Adicione uma captura do protótipo em docs/images/figma.png e substitua a URL. -->
-<!-- [![Conheça o protótipo no Figma](docs/images/figma.png)](URL_DO_PROTOTIPO_FIGMA) -->
 
-**Protótipo interativo:** 
-[![Conheça o protótipo no Figma](asstes/images/figma.png)]([URL_DO_PROTOTIPO_FIGMA](https://www.figma.com/proto/OlghV392KigSSswil4jZFO/panna_assets?node-id=1-835&p=f&viewport=414%2C94%2C0.05&t=nD768CbHFwYtczy8-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A835&show-proto-sidebar=1&page-id=0%3A1))
+**Protótipo interativo:**
+
+[![Conheça o protótipo no Figma](assets/images/figma.png)](https://www.figma.com/proto/OlghV392KigSSswil4jZFO/panna_assets?node-id=1-835&p=f&viewport=414%2C94%2C0.05&t=nD768CbHFwYtczy8-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A835&show-proto-sidebar=1&page-id=0%3A1)
 
 ## Demonstração do sistema
 
