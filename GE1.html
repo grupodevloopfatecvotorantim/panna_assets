@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panna Equipamentos</title>
+    <link rel="icon" href="assets/logo_group.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.min.js" integrity="sha384-89aa4glufciPv46aKltztWQEmk+Tu9W2RhzXr6VcnUUEub7F8+06RcL2RYLCOHUq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cloudflare.com" defer></script>
+</head>
+
+
+<!-- ETAPA 26: menu inicia recolhido em qualquer tamanho de tela. -->
+<body class="page page--home panna-ge panna-ge-list sidebar-collapsed">
+    <header>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li><button type="button" class="navbar__btn-menu" id="toggle-sidebar" aria-label="Mostrar ou ocultar menu lateral" aria-expanded="false"><img src="assets/btn_menu.svg" alt="botao menu"></button></li>
+                <li class="navbar__item"><img class="navbar__logo" id="navbar-logo" src="assets/logo_group.png"></li>
+                <li class="navbar__item" id="navbar-manage-equipment"> • Gestão interna</li>
+            </ul>    
+        </nav>
+    </header>
+
+    <div class="layout-container">
+        <div class="sidebar" id="side-menu">
+            <ul>
+                <li class="sidebar__buttons"><button type="button" class="navbar__btn-menu" onclick="window.location.href ='CE1.html'"><img src="assets/icon_file.svg" alt="botao menu">Cadastrar Equipamentos</button></li>
+                <li class="sidebar__buttons sidebar__buttons--active"><button type="button" class="navbar__btn-menu" onclick="window.location.href ='GE1.html'"><img src="assets/icon_box.svg" alt="botao menu">Gerenciar Equipamentos</button></li>
+                <li class="sidebar__buttons"><button type="button" class="navbar__btn-menu" onclick="window.location.href ='TE1.html'"><img src="assets/icon_truck.svg" alt="botao menu">Transferir</button></li>
+                <li class="sidebar__buttons"><button type="button" class="navbar__btn-menu" onclick="window.location.href ='#'"><img src="assets/icon_maintenance.png" alt="botao menu" style="width: 20px; height: 20px;">Manutenção</button></li>
+                <li class="sidebar__buttons"><button type="button" class="navbar__btn-menu" onclick="window.location.href ='#'"><img src="assets/icon_report.png" alt="botao menu" style="width: 20px; height: 20px;">Relatórios</button></li>
+            </ul>
+
+            <footer class="footer_sidebar">
+                <button type="button" class="navbar__btn-menu" onclick="window.location.href = 'index.html'"><img src="assets/logo_profile.svg" alt="botao menu"></button>
+            </footer>
+        </div>
+
+        <!-- ETAPA 24: camada para fechar o menu lateral no celular sem interferir no desktop. -->
+        <button class="panna-ge-backdrop" type="button" aria-label="Fechar menu lateral" hidden></button>
+        <main class="main-content">
+
+            <div class="manage-header">
+                <div>             
+                    <h3 class="title-h3" style="margin-bottom: 0;">OPERAÇÕES / EQUIPAMENTOS</h3>    
+                    <h1 class="title-h1" style="padding: 5px 0;">Gerenciamento de equipamentos</h1>
+                    <h3 class="title-h3" style="margin-bottom: 0;">Acompanhe o status, a localização e as preventivas dos equipamentos.</h3>
+                </div>
+            
+                <button type="button" class="button button--manage-equip" onclick="window.location.href ='CE1.html'">
+                <img src="assets/icon_plus.svg" alt="Ícone de +" class="button__icon" width="18">
+                <span>Cadastrar equipamento</span>
+                </button>
+            </div>
+
+          
+            <section class="equipment-summary">                              
+                    <div class="equipment-summary__card equipment-summary__card--active">
+                    <h3 class="title-h3--ge">Total de equipamentos</h3>
+                    <h1 class="title-h1--ge"> 48 </h1>
+                    <img src="assets/icon_status_green.svg" alt="Icone de status - verde"> <a class="title-h3--ge">Total cadastrado</a>
+                    </div>    
+                            
+                    <div class="equipment-summary__card">
+                    <h3 class="title-h3--ge">Em funcionamento</h3>
+                    <h1 class="title-h1--ge"> 31 </h1>
+                    <img src="assets/icon_status_green.svg" alt="Icone de status - verde"><a class="title-h3--ge" href="#"> Clique para filtrar</a>
+                    </div>    
+              
+                    <div class="equipment-summary__card">
+                    <h3 class="title-h3--ge">Em manutenção</h3>
+                    <h1 class="title-h1--ge"> 9 </h1>
+                    <img src="assets/icon_status_orange.svg" alt="Icone de status - laranja"> <a class="title-h3--ge" href="#"> Clique para filtrar</a>
+                    </div>    
+               
+                    <div class="equipment-summary__card">
+                    <h3 class="title-h3--ge">Parados e inativos</h3>
+                    <h1 class="title-h1--ge"> 8 </h1>
+                    <img src="assets/icon_status_red.svg" alt="Icone de status - vermelho"><a class="title-h3--ge" href="#"> Clique para filtrar</a>
+                    </div>
+            </section>
+
+            <section class="equipment-table">
+                <div class="equipment-table__header">
+                    <div class="equipment-table__title-group">
+                    <h1 class="title-h1--ge">Equipamentos</h1>
+                    <span class="title-h3--ge">6 registros encontrados</span>
+                    </div>
+
+                    <div class="equipment-table__header--filters">
+                        <div class="equipment-table__header--search">        
+                        <button type="button" class="equipment-table__search-btn" id="photo-upload">
+                                    <img src="assets/icon_search.svg" alt="Anexar" width="18">
+                                </button>
+                                <input class="equipment-table__search-input" type="text" id="equipment-search" placeholder="Buscar equipamento">
+                        </div>   
+                    
+                    
+                    
+                
+                    <div class="equipment-table__header--select">
+                                <select class="equipment-table__header-allsituation input_select form-select" id="all-situation">
+                                <option value="all-sit">Todas as situações</option>
+                                <option value="in-operation-sit">Em funcionamento</option>
+                                <option value="under-maintenance">Em manutenção</option>
+                                <option value="stopped-sit">Parado</option>
+                                <option value="inactive-sit">Inativo</option>    
+                            </select>
+                         </div>                                    
+                </div>
+                </div>
+
+                <table class="equipment-table__grid">
+                    <thead>
+                        <tr>
+                            <th>CÓDIGO</th>
+                            <th>EQUIPAMENTO</th>
+                            <th>GRUPO</th>
+                            <th>LOCAL</th>
+                            <th>VOLTAGEM</th>
+                            <th>PRÓXIMA PREVENTIVA</th>
+                            <th>SITUAÇÃO</th>
+                            <th></th>
+                        </tr>    
+                    </thead>
+
+                    <tbody>
+                        <!-- Linhas geradas por panna.js a partir dos dados internos e do localStorage. -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <!-- JavaScript compartilhado: menu, armazenamento e cadastro. -->
+    <script src="equipamentos-iniciais.js"></script>
+    <script src="panna.js"></script>
+<script src="equipamentos-iniciais.js"></script>
+<script src="panna-integracao.js"></script>
+<!-- ETAPA 24: controle do menu responsivo exclusivo das telas GE1 e GE2. -->
+<script src="panna-ge-responsive.js"></script>
+</body>
+</html>
