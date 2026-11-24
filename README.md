@@ -22,13 +22,15 @@ O projeto é desenvolvido por uma equipe de estudantes da Fatec Votorantim, reun
 
 | Integrante | GitHub |
 | --- | --- |
-| [Nome do integrante] | [Perfil do GitHub] |
-| [Adicionar demais integrantes] | |
+| Alanis Aparecida Laureano Domingues | --- |
+| Fernando Terumasa Ikeda Son| https://github.com/FernandoTISon |
+| Jessica Latance | https://github.com/JessicaLatance |
+| Talita Ramos Lauriano Akyama | --- |
+| Sara Gongora | https://github.com/saragongora |
 
 **Instituição:** Fatec Votorantim  
 **Empresa parceira:** Grupo Panna  
-**Curso:** [Informar curso]  
-**Orientação:** [Informar docente, se aplicável]
+**Curso:** Desenvolvimento de Software Multiplataforma
 
 ## Contexto e problemática
 
@@ -88,10 +90,7 @@ Cadastro e acompanhamento de transferências entre unidades, com situações **P
 
 O vídeo pitch apresenta o contexto do projeto, os desafios identificados, a solução proposta e uma demonstração do sistema.
 
-<!-- Substitua o endereço abaixo pelo link do vídeo e adicione a capa em docs/images/pitch.png. -->
-<!-- [![Assista ao vídeo pitch](docs/images/pitch.png)](URL_DO_VIDEO) -->
-
-**Vídeo pitch:** [link a inserir após a publicação].
+**Vídeo pitch:** [link].
 
 ## Prototipagem e design de interface
 
@@ -100,7 +99,8 @@ A prototipagem no Figma foi utilizada para estruturar as interfaces, organizar o
 <!-- Adicione uma captura do protótipo em docs/images/figma.png e substitua a URL. -->
 <!-- [![Conheça o protótipo no Figma](docs/images/figma.png)](URL_DO_PROTOTIPO_FIGMA) -->
 
-**Protótipo interativo:** [link do Figma a inserir].
+**Protótipo interativo:** 
+[![Conheça o protótipo no Figma](docs/images/figma.png)]([URL_DO_PROTOTIPO_FIGMA](https://www.figma.com/proto/OlghV392KigSSswil4jZFO/panna_assets?node-id=1-835&p=f&viewport=414%2C94%2C0.05&t=nD768CbHFwYtczy8-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A835&show-proto-sidebar=1&page-id=0%3A1))
 
 ## Demonstração do sistema
 
